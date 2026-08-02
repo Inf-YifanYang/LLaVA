@@ -89,9 +89,14 @@ pip install -e .
 ```
 
 3. Install additional packages for training cases
-```
+```Shell
 pip install -e ".[train]"
-pip install flash-attn --no-build-isolation
+
+# pip install flash-attn --no-build-isolation
+# MAX_JOBS=4 NVCC_THREADS=1 TORCH_CUDA_ARCH_LIST="8.6" \
+# python -m pip install "flash-attn==2.5.9.post1" \
+#     --no-build-isolation \
+#     --no-cache-dir
 ```
 
 ### Upgrade to latest code base

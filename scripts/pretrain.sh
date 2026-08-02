@@ -5,7 +5,7 @@
 # Uncomment and set the following variables correspondingly to run this script:
 
 # MODEL_VERSION=vicuna-v1-3-7b
-# MODEL_VERSION=llama-2-7b-chat
+MODEL_VERSION=llama-2-7b-chat
 
 ########### DO NOT CHANGE ###########
 ########### USE THIS FOR BOTH ###########
