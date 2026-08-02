@@ -24,3 +24,6 @@ output
 
 checkpoints
 ckpts*
+
+.venv
+.experiments
