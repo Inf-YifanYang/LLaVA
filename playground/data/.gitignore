@@ -1,3 +1,7 @@
 coco/
 vg/
 textvqa/
+gqa/
+
+pretrain_cc3m_558k
+finetune-instruct-150k

@@ -27,3 +27,5 @@ ckpts*
 
 .venv
 .experiments
+
+*.html
